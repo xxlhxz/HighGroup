@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>myWeb</title>
+
+<link href="css/css.css" rel="stylesheet" />
+<script src="https://leancloud.cn/scripts/lib/av-0.4.7.min.js"></script>
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/underscore.js"></script>
+<script src="js/hiGroup.js"></script>
+
+
+</head>
+
+<body>
+
+
+<div id="hiGroup">
+
+    <div id="header">
+		<h1>HiGroup</h1>
+		<div id="header_bar">
+		<a href = "#" id="ul_user">ZhouYu</a>
+		</div>
+	</div>
+	
+	<div id="content">
+	
+	  <form id="Activity" action="#">
+	    <dl id="ul_activity">
+			<dd>活动名称：<input type="text" id="activityName" class="underline"/></dd>
+		    <dd>活动时间：<input type="text" id = "activityTime" class="underline lf"/><i id="i_calendar"></i></dd>
+			<dd>活动地点：<input type="text" id = "activityPlace" class="underline"/></dd>
+			<dd>活动内容说明：<br /><textarea class="txtArea" id = "activityDescription" rows="10" cols="20"></textarea></dd>
+			
+			<dd>付费方式:  
+			<input type="radio" id = "payAA" name = "PayWay" value="1" />
+			 <label for "payAA">AA制</label>&nbsp;&nbsp;
+			 <input type="radio" name = "PayWay" id = "personPay" value="0" />
+			 <label for "personPay"><input type="text" id="whoPay" class="shortline"/> 请客</label>
+
+			</dd>
+		</dl>
+	  
+	  
+	  <input type="button"  id = "btn1" value="确&nbsp;&nbsp;认" />
+	  
+	  
+	  
+	  </form>
+	
+	</div>
+	
+	<div id="footer">
+	    Powered by <a href="https://cn.avoscloud.com">HighGroup</a>
+     </div>
+
+</div>
+
+
+</body>
+
+</html>
